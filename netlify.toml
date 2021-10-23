@@ -1,6 +1,6 @@
 # netlify.toml
-[build.environment]
-  NODE_VERSION = "12.22.7"
+# [build.environment]
+#   NODE_VERSION = "12.22.7"
 
 [functions]
   node_bundler = "esbuild"
