@@ -5,5 +5,5 @@
 [functions]
   node_bundler = "esbuild"
   directory = "functions"
-  included_files = ["node_modules/shopify-api-node/**"]
+  included_files = ["node_modules/shopify-api-node/mixins/**"]
   external_node_modules = ["lodash"]
