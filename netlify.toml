@@ -1,0 +1,10 @@
+[build]
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "12.22.7"
+
+[functions]
+  node_bundler = "esbuild"
+  directory = "functions"
+  external_node_modules = ["shopify-api-node", "lodash"]
