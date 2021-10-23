@@ -1,4 +1,3 @@
-// import { loadImage, createCanvas } from "canvas";
-import Shopify from "shopify-api-node";
+import { loadImage, createCanvas } from "canvas";
 
-console.log(Shopify);
+console.log(loadImage, createCanvas);
